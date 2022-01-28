@@ -62,7 +62,7 @@ const UserFind: React.FC = () => {
           onChange={(e) => setText(e.target.value)}
         />
         <Button disabled={!text} onClick={handleOnClick}>
-          Searchbar
+          Search
         </Button>
       </Form>
 
